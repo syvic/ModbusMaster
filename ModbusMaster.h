@@ -225,6 +225,9 @@ class ModbusMaster
     uint8_t available(void);
     uint16_t receive(void);
     
+    void setSlave(uint8_t);
+    void setUSART(uint8_t);
+    
     
     uint8_t  readCoils(uint16_t, uint16_t);
     uint8_t  readDiscreteInputs(uint16_t, uint16_t);

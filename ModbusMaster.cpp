@@ -97,6 +97,15 @@ void ModbusMaster::begin(void)
   begin(19200);
 }
 
+void ModbusMaster::setSlave(uint8_t slave)
+{
+    _u8MBSlave = slave;
+}
+
+void ModbusMaster::setUSART(uint8_t port)
+{
+    _u8SerialPort = port;
+}
 
 /**
 Initialize class object.
