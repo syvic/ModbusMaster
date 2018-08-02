@@ -18,8 +18,8 @@ highWord	KEYWORD2
 LONG	KEYWORD2
 
 begin	KEYWORD2
-setSlave    KEYWORD2
-setUSART    KEYWORD2
+setSlave	KEYWORD2
+setUSART	KEYWORD2
 
 getResponseBuffer	KEYWORD2
 clearResponseBuffer	KEYWORD2
